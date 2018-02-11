@@ -11,13 +11,20 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme">
+        <activity android:name="io.left.core.assignment.ui.assignment_one.AssignmentOneActivity">
 
-        <activity android:name="io.left.core.assignmentone.ui.assignment_one.AssignmentOneActivity">
+        </activity>
+        <activity android:name="io.left.core.assignment.ui.assignment_three.AssignmentThreeActivity">
+
+        </activity>
+        <activity android:name="io.left.core.assignment.ui.theme_color_change.ThemeColorChangeActivity">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
         </activity>
     </application>
 

@@ -10,4 +10,6 @@
     <string name="empty_ribots">There aren\'t any ribots</string>
     <string name="error_loading_ribots">There was a problem loading the ribots</string>
     <string name="textview_des">It is a most and wonderful place. It is a most and wonderful placeIt is a most and wonderful placeIt is a most and wonderful placeIt is a most and wonderful place</string>
+    <string name="button_take_photo">Take Photo</string>
+    <string name="button_next">Next</string>
 </resources>

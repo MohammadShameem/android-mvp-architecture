@@ -1,4 +1,4 @@
-package io.left.core.assignmentone.ui.base;
+package io.left.core.assignment.ui.base;
 
 import android.arch.lifecycle.Lifecycle;
 import android.arch.lifecycle.LifecycleObserver;

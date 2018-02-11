@@ -1,4 +1,4 @@
-package io.left.core.assignmentone.data.helper;
+package io.left.core.assignment.data.helper;
 
 /**
  * Created by Dell on 10/24/2017.

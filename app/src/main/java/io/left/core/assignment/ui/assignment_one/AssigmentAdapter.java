@@ -1,4 +1,4 @@
-package io.left.core.assignmentone.ui.assignment_one;
+package io.left.core.assignment.ui.assignment_one;
 
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -8,7 +8,7 @@ import android.widget.TextView;
 
 import java.util.List;
 
-import io.left.core.assignmentone.data.local.assignment.Assigment;
+import io.left.core.assignment.data.local.assignment.Assigment;
 import io.left.core.util.R;
 
 /**

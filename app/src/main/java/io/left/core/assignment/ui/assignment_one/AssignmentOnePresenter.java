@@ -1,10 +1,9 @@
-package io.left.core.assignmentone.ui.assignment_one;
+package io.left.core.assignment.ui.assignment_one;
 
-import java.util.ArrayList;
 import java.util.List;
 
-import io.left.core.assignmentone.data.local.assignment.Assigment;
-import io.left.core.assignmentone.ui.base.BasePresenter;
+import io.left.core.assignment.data.local.assignment.Assigment;
+import io.left.core.assignment.ui.base.BasePresenter;
 
 /**
  * Created by shameem on 15/01/2018.

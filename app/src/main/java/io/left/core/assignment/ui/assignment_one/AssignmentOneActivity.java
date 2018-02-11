@@ -1,4 +1,4 @@
-package io.left.core.assignmentone.ui.assignment_one;
+package io.left.core.assignment.ui.assignment_one;
 
 import android.os.Bundle;
 import android.support.v7.widget.DefaultItemAnimator;
@@ -16,8 +16,8 @@ import java.util.List;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
-import io.left.core.assignmentone.data.local.assignment.Assigment;
-import io.left.core.assignmentone.ui.base.BaseActivity;
+import io.left.core.assignment.data.local.assignment.Assigment;
+import io.left.core.assignment.ui.base.BaseActivity;
 import io.left.core.util.R;
 
 

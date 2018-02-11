@@ -79,7 +79,7 @@ play {
 
 dependencies {
     final PLAY_SERVICES_VERSION = '9.6.1'
-    final SUPPORT_LIBRARY_VERSION = '26.+'
+    final SUPPORT_LIBRARY_VERSION = '26.1.0'
     final RETROFIT_VERSION = '2.3.0'
     final DAGGER_VERSION = '2.5'
     final MOCKITO_VERSION = '2.6.2'
@@ -122,12 +122,11 @@ dependencies {
     // https://github.com/rharter/auto-value-parcel/issues/64
 
     compile "com.google.dagger:dagger:$DAGGER_VERSION"
+    //circular image
+    compile 'de.hdodenhof:circleimageview:2.2.0'
+     //palette
+    compile 'com.android.support:palette-v7:23.2.1'
 
-    //fab
-    compile 'com.github.clans:fab:1.6.4'
-
-
-    compile 'jp.wasabeef:recyclerview-animators:2.2.7'
     //Required by Dagger2
     annotationProcessor daggerCompiler
     testAnnotationProcessor daggerCompiler
@@ -158,6 +157,8 @@ dependencies {
     testCompile "org.hamcrest:hamcrest-core:$HAMCREST_VERSION"
     testCompile "org.hamcrest:hamcrest-library:$HAMCREST_VERSION"
     testCompile "org.hamcrest:hamcrest-integration:$HAMCREST_VERSION"
+    compile 'com.github.clans:fab:1.6.4'
+    compile 'jp.wasabeef:recyclerview-animators:2.2.7'
     compile 'com.github.bumptech.glide:glide:3.7.0'
     compile 'io.reactivex.rxjava2:rxandroid:2.0.1'
     compile 'io.reactivex.rxjava2:rxjava:2.1.0'

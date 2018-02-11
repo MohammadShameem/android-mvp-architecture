@@ -1,4 +1,4 @@
-package io.left.core.assignmentone.data.local.assignment;
+package io.left.core.assignment.data.local.assignment;
 
 /**
  * Created by shameem on 16/01/2018.
