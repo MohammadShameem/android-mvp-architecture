@@ -4,10 +4,10 @@ package io.left.core.util.helper;
 import android.graphics.Bitmap;
 import android.support.v7.graphics.Palette;
 
-public class ExtractingProminentColorsFromImage {
+public class GetColorUtil {
 
 
-    public static int GetAppropriatePalletColorFromImage(Bitmap bitmap){
+    public static int PalletColorFromImage(Bitmap bitmap){
         try {
             if (bitmap != null) {
 
